@@ -41,9 +41,9 @@ require (
 	github.com/bmatcuk/doublestar/v4 v4.6.1
 	github.com/cenkalti/backoff/v4 v4.3.0
 	github.com/cheggaaa/pb/v3 v3.1.5
-	github.com/containerd/containerd v1.7.17
+	github.com/containerd/containerd v1.7.19
 	github.com/csaf-poc/csaf_distribution/v3 v3.0.0
-	github.com/docker/docker v26.1.3+incompatible
+	github.com/docker/docker v27.0.3+incompatible
 	github.com/docker/go-connections v0.5.0
 	github.com/fatih/color v1.17.0
 	github.com/go-git/go-git/v5 v5.12.0
@@ -86,7 +86,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mitchellh/hashstructure/v2 v2.0.2
 	github.com/mitchellh/mapstructure v1.5.0
-	github.com/moby/buildkit v0.13.2
+	github.com/moby/buildkit v0.15.0
 	github.com/open-policy-agent/opa v0.65.0
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.1.0
@@ -184,23 +184,25 @@ require (
 	github.com/chai2010/gettext-go v1.0.2 // indirect
 	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/containerd/cgroups/v3 v3.0.2 // indirect
+	github.com/containerd/containerd/api v1.7.19 // indirect
 	github.com/containerd/continuity v0.4.3 // indirect
 	github.com/containerd/errdefs v0.1.0 // indirect
 	github.com/containerd/fifo v1.1.0 // indirect
 	github.com/containerd/log v0.1.0 // indirect
+	github.com/containerd/platforms v0.2.1 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.15.1 // indirect
-	github.com/containerd/ttrpc v1.2.4 // indirect
+	github.com/containerd/ttrpc v1.2.5 // indirect
 	github.com/containerd/typeurl/v2 v2.1.1 // indirect
 	github.com/cpuguy83/dockercfg v0.3.1 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.3 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/distribution/reference v0.6.0 // indirect
 	github.com/dlclark/regexp2 v1.4.0 // indirect
-	github.com/docker/cli v25.0.3+incompatible // indirect
+	github.com/docker/cli v27.0.3+incompatible // indirect
 	github.com/docker/distribution v2.8.3+incompatible // indirect
-	github.com/docker/docker-credential-helpers v0.8.0 // indirect
+	github.com/docker/docker-credential-helpers v0.8.2 // indirect
 	github.com/docker/go-events v0.0.0-20190806004212-e31b211e4f1c // indirect
 	github.com/docker/go-metrics v0.0.1 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
@@ -264,7 +266,7 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
-	github.com/klauspost/compress v1.17.7 // indirect
+	github.com/klauspost/compress v1.17.9 // indirect
 	github.com/lann/builder v0.0.0-20180802200727-47ae307949d0 // indirect
 	github.com/lann/ps v0.0.0-20150810152359-62de8c46ede0 // indirect
 	github.com/lib/pq v1.10.9 // indirect
@@ -297,7 +299,7 @@ require (
 	github.com/mxk/go-flowrate v0.0.0-20140419014527-cca7078d478f // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
-	github.com/opencontainers/runtime-spec v1.1.0 // indirect
+	github.com/opencontainers/runtime-spec v1.2.0 // indirect
 	github.com/opencontainers/selinux v1.11.0 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.2 // indirect
@@ -310,7 +312,7 @@ require (
 	github.com/prometheus/client_golang v1.19.1 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.48.0 // indirect
-	github.com/prometheus/procfs v0.12.0 // indirect
+	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
@@ -332,6 +334,7 @@ require (
 	github.com/tchap/go-patricia/v2 v2.3.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.13 // indirect
 	github.com/tklauser/numcpus v0.7.0 // indirect
+	github.com/tonistiigi/go-csvvalue v0.0.0-20240710180619-ddb21b71c0b4 // indirect
 	github.com/ulikunitz/xz v0.5.11 // indirect
 	github.com/vbatts/tar-split v0.11.5 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
